@@ -1,0 +1,56 @@
+*{
+     padding: 0;
+     margin: 0;
+   
+}
+body{
+     background-image: url(star.avif);     
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 100%;
+     height: 100vh;
+}
+
+
+
+
+
+.container{
+     background-color:transparent;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     padding: 50px;
+     margin: 200px  20% 0   ;
+     border-radius: 20px; 
+     border: 5px dotted  aqua;
+}
+h1{
+     color: rgb(255, 247, 247);
+     font-family: sans-serif;
+     font-style:oblique;
+}
+#number{
+     color: rgb(0, 0, 0);
+     width: 250px;
+     height: 50px;
+     font-size: 20px;
+     border-radius: 10px;
+     border: 20px red;
+
+}
+button{
+     background-color: yellow;
+     width: 100px;
+     height: 40px;
+     font-weight: 100;
+     font-size: 20px;
+     font-style: inherit;
+     color: green;
+}
+p{
+     color: red;
+     background-color: black;
+     font-size: 40px;
+}
